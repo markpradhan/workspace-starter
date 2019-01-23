@@ -6,7 +6,7 @@
   "author": "Mark Pradhan <mark.pradhan@gmail.com>",
   "private": true,
   "scripts": {
-    "dev": "export NODE_ENV=development ENV_DEV=1 && nodemon --config nodemon.json --exec babel-node --presets env -- ./dev.js"
+    "dev": "echo 'yarn dev:playground:template or yarn dpt'"
   },
   "dependencies": {
     "@workspace-starter/api": "0.0.0",
@@ -31,6 +31,8 @@
     "styled-components": "^4.1.3"
   },
   "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
     "@types/enzyme": "^3.1.15",
     "@types/enzyme-adapter-react-16": "^1.0.3",
     "@types/jest": "^23.3.13",

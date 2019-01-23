@@ -5,6 +5,12 @@
   "repository": "git@github.com:markpradhan/workspace-starter.git",
   "description": "Mono repo starter using yarn workspaces",
   "author": "Mark Pradhan <mark.pradhan@gmail.com>",
+  "scripts": {
+    "dev:app:example": "export NODE_ENV=development ENV_DEV=1 && babel-node --env-name babelNode ./app/example/dev.js",
+    "dae": "yarn dev:app:example",
+    "dev:playground:template": "export NODE_ENV=development ENV_DEV=1 && babel-node --env-name babelNode  ./playground/template/dev.js",
+    "dpt": "yarn dev:playground:template"
+  },
   "workspaces": {
     "packages": [
       "app/*",
