@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": ["*", "../../node_modules/*"]
+    },
+    "plugins": [
+      {
+        "name": "typescript-styled-plugin",
+        "validate": false
+      }
+    ]
+  },
+  "include": ["../../typings.d.ts", "./**/*"]
+}

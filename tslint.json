@@ -1,0 +1,35 @@
+{
+  "extends": [
+    "tslint-react",
+    "tslint-eslint-rules",
+    "tslint-immutable",
+    "tslint-consistent-codestyle"
+  ],
+  "rules": {
+    "no-constant-condition": true,
+    "eofline": false,
+    "ordered-imports": false,
+    "quotemark": false,
+    "semicolon": false,
+    "no-implicit-dependencies": false,
+    "no-submodule-imports": false,
+    "arrow-parens": false,
+    "jsx-boolean-value": false,
+    "no-boolean-literal-compare": false,
+    "import-name": false,
+    "variable-name": false,
+    "no-var-keyword": true,
+    "no-parameter-reassignment": true,
+    "typedef": false,
+    "readonly-keyword": false,
+    "readonly-array": false,
+    "no-object-mutation": false,
+    "no-delete": true,
+    "no-method-signature": true,
+    "no-mixed-interface": true,
+    "jsx-no-multiline-js": false,
+    "jsx-no-lambda": false,
+    "jsx-wrap-multiline": false,
+    "jsx-curly-spacing": false
+  }
+}

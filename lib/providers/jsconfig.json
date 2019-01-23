@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es6",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "mapRoot": ".",
+    "rootDir": ".",
+    "sourceRoot": ".",
+    "plugins": [
+      {
+        "name": "typescript-styled-plugin",
+        "validate": false
+      }
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "examples",
+    "tools",
+    "stage",
+    "coverage",
+    ".nyc_output"
+  ]
+}

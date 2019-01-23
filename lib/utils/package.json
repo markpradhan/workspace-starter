@@ -1,0 +1,24 @@
+{
+  "name": "@workspace-starter/utils",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@workspace-starter/api": "0.0.0",
+    "@workspace-starter/atoms": "0.0.0",
+    "@workspace-starter/components": "0.0.0",
+    "@workspace-starter/domain": "0.0.0",
+    "@workspace-starter/env": "0.0.0",
+    "@workspace-starter/providers": "0.0.0",
+    "@workspace-starter/theme": "0.0.0",
+    "@workspace-starter/tools": "0.0.0",
+    "@workspace-starter/utils": "0.0.0",
+    "moment": "^2.24.0",
+    "react": "^16.7.0",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "@types/react": "^16.7.20",
+    "@types/validator": "^10.9.0"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "env": {
+    "development": {
+      "presets": [
+        [
+          "env",
+          { "modules": false, "browsers": ["last 3 versions", "not ie"] }
+        ],
+        "react"
+      ],
+      "plugins": [
+        "lodash",
+        "babel-plugin-inline-import",
+        "react-hot-loader/babel",
+        ["babel-plugin-styled-components"]
+      ]
+    },
+    "staging": {
+      "presets": [
+        [
+          "env",
+          {
+            "modules": false,
+            "target": { "browsers": ["last 3 versions", "not ie"] }
+          }
+        ],
+        "react"
+      ],
+      "plugins": [
+        "lodash",
+        "babel-plugin-inline-import",
+        ["babel-plugin-styled-components"]
+      ]
+    },
+    "production": {
+      "presets": [
+        [
+          "env",
+          {
+            "modules": false,
+            "target": { "browsers": ["last 3 versions", "not ie"] }
+          }
+        ],
+        "react"
+      ],
+      "plugins": ["lodash", "babel-plugin-inline-import"]
+    },
+    "test": {
+      "presets": [
+        [
+          "env",
+          {
+            "target": { "browsers": ["last 3 versions", "not ie"] }
+          }
+        ],
+        "react"
+      ],
+      "plugins": ["lodash", "babel-plugin-inline-import"]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "folders": [
+    {
+      "name": "Atoms",
+      "path": "../lib/atoms"
+    },
+    {
+      "name": "Components",
+      "path": "../lib/components"
+    },
+    {
+      "name": "Providers",
+      "path": "../lib/providers"
+    },
+    {
+      "name": "Utils",
+      "path": "../lib/utils"
+    },
+    {
+      "name": "Theme",
+      "path": "../lib/theme"
+    }
+  ],
+  "settings": {
+    "typescript.tsdk": "node_modules/typescript/lib"
+  }
+}

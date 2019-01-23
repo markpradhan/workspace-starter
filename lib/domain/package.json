@@ -1,0 +1,15 @@
+{
+  "name": "@workspace-starter/domain",
+  "version": "0.0.0",
+  "dependencies": {
+    "@workspace-starter/api": "0.0.0",
+    "@workspace-starter/atoms": "0.0.0",
+    "@workspace-starter/components": "0.0.0",
+    "@workspace-starter/domain": "0.0.0",
+    "@workspace-starter/env": "0.0.0",
+    "@workspace-starter/theme": "0.0.0",
+    "@workspace-starter/providers": "0.0.0",
+    "@workspace-starter/tools": "0.0.0",
+    "@workspace-starter/utils": "0.0.0"
+  }
+}

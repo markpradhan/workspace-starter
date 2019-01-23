@@ -1,0 +1,18 @@
+{
+  "name": "workspace-starter",
+  "version": "0.0.0",
+  "private": true,
+  "repository": "git@github.com:markpradhan/workspace-starter.git",
+  "description": "Mono repo starter using yarn workspaces",
+  "author": "Mark Pradhan <mark.pradhan@gmail.com>",
+  "workspaces": {
+    "packages": [
+      "app/*",
+      "lib/*",
+      "constants/*",
+      "playground/*"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
